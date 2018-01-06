@@ -1,4 +1,5 @@
 ﻿using System;
+using CustomerAppEntity;
 
 namespace CustomerAppUI
 {
@@ -7,6 +8,7 @@ namespace CustomerAppUI
 
         static void Main(string[] args)
         {
+            var cus = new Customer();
             Console.WriteLine("Hello World!");
         }
     }
